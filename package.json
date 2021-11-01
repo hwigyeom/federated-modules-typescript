@@ -11,6 +11,13 @@
     "dev": "wsrun --parallel dev"
   },
   "devDependencies": {
-    "wsrun": "^5.2.4"
+    "wsrun": "^5.2.4",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6"
+  },
+  "lint-staged": {
+    "**/*.+(js|jsx|ts|tsx|json)": [
+      "eslint --fix"
+    ]
   }
 }

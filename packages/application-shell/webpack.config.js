@@ -36,7 +36,7 @@ module.exports = {
       filename: 'app-shell.js',
       remotes: {
         applicationHome: `applicationHome@http://localhost:3011/remoteEntry.js`, // load Home app as remote
-        applicationCart: 'applicationCart@http://localhost:3012/remoteEntry.js'  // load cart app as remote
+        applicationCart: 'applicationCart@http://localhost:3012/remoteEntry.js' // load cart app as remote
       },
       shared: {
         ...deps,
