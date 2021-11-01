@@ -1,0 +1,22 @@
+// TS config shared by all hosts and remotes
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": ".",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "strict": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "applicationHome/HomeRemote": ["./packages/application-home/src/app"],
+      "applicationCart/CartRemote": ["./packages/application-cart/src/app"]
+    }
+  },
+  "exclude": [
+    "node_modules", "./packages/**/node_modules"
+  ]
+}
