@@ -5,7 +5,9 @@
   "scripts": {
     "start": "serve dist -p 3010 --single",
     "build": "webpack --mode production",
-    "dev": "NODE_ENV=development webpack-dev-server"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "dev": "webpack-dev-server --mode development --liveReload --open"
   },
   "dependencies": {
     "react": "^17.0.2",
