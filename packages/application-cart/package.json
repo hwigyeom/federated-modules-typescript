@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "dev": "webpack-dev-server --mode development --liveReload"
+    "dev": "webpack-dev-server --mode development --live-reload"
   },
   "dependencies": {
     "react": "^17.0.2",
