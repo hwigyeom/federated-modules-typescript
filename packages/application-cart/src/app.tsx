@@ -5,7 +5,7 @@ type Props = { callback?: () => void };
 const Cart: React.FC<Props> = ({ callback }) => {
   return (
     <p style={{ background: '#cfc', padding: '1em' }}>
-      Hello form Cart!
+      Hello from Cart!
       {callback && (
         <>
           <br />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 
-const AppShell: React.FC<{}> = (params) => {
+const AppShell: React.FC = params => {
   return (
     <Router>
       <div className="app-shell">
