@@ -6,9 +6,11 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "wsrun --parallel start",
     "build": "yarn workspaces run build",
     "dev": "wsrun --parallel dev",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install",
+    "start": "wsrun --parallel start",
     "test": "yarn workspaces run test",
     "test:coverage": "yarn workspaces run test:coverage"
   },
