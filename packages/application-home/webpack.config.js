@@ -14,7 +14,7 @@ module.exports = {
     port,
     static: './dist',
     historyApiFallback: {
-      index: 'index.html'
+      index: '/index.html'
     }
   },
   resolve: {
@@ -43,7 +43,7 @@ module.exports = {
         './HomeRemote': './src/app' // This will be make the application-home available as remote
       },
       remotes: {
-        applicationCart: 'applicationCart@http://localhost:3012/RemoteEntry.js' // load cart app as remote
+        applicationCart: 'applicationCart@http://localhost:3012/remoteEntry.js' // load cart app as remote
       },
       shared: {
         ...deps,

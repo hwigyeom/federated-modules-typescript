@@ -42,7 +42,7 @@ module.exports = {
         './CartRemote': './src/app' // This will be make the application-b available as remote
       },
       remotes: {
-        applicationHome: `applicationHome@http://localhost:3011/RemoteEntry.js` // load application-home as remote
+        applicationHome: `applicationHome@http://localhost:3011/remoteEntry.js` // load application-home as remote
       },
       shared: {
         ...deps,

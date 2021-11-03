@@ -14,7 +14,7 @@ module.exports = {
     port,
     static: './dist',
     historyApiFallback: {
-      index: 'index.html'
+      index: '/index.html'
     }
   },
   resolve: {
